@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MG Nails Boutique</title>
+  <!-- פונטים -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background: #fdfdff;
+      color: #333;
+      background-image: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(90deg, #f7c6d9, #d5c6f7, #c6e7f7);
+    }
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 4rem;
+      color: #6a1b9a;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+      color: #333;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #fff;
+      border-bottom: 2px solid #eee;
+      padding: 1rem;
+    }
+    nav a {
+      color: #6a1b9a;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #e91e63;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    section h2 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.5rem;
+      color: #e91e63;
+      margin-bottom: 2rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      padding: 2rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      margin: 1rem;
+      flex: 1;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    footer {
+      background: #6a1b9a;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+    footer a {
+      color: #f8bbd0;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MG Nails Boutique</h1>
+    <p>אצלנו הלקוחות הן חברות 💅✨</p>
+  </header>
+
+  <nav>
+    <a href="#about">אודות</a>
+    <a href="#services">שירותים</a>
+    <a href="#gallery">גלריה</a>
+    <a href="#contact">צור קשר</a>
+  </nav>
+
+  <section id="about">
+    <h2>אודות</h2>
+    <p>ברוכים הבאים ל־<b>MG</b> – כאן כל לקוחה מרגישה כמו חברה קרובה. מיקיוב, אהבה וסטייל בכל פרטים קטנים.</p>
+  </section>
+
+  <section id="services">
+    <h2>השירותים שלנו</h2>
+    <div class="cards-container">
+      <div class="card">
+        <h3>מניקור קלאסי</h3>
+        <p>טיפוח, ניקוי וציפורניים מושלמות עם טאץ' נשי.</p>
+      </div>
+      <div class="card">
+        <h3>לק ג'ל</h3>
+        <p>עמידות וברק לאורך זמן במגוון צבעים עדכניים.</p>
+      </div>
+      <div class="card">
+        <h3>עיצובים מיוחדים</h3>
+        <p>יצירות אמנות קטנות על הציפורניים שלך 🎨.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>גלריה</h2>
+    <p>עקבו אחרי העבודות שלנו בטיקטוק ובאינסטגרם 👇</p>
+    <p>
+      <a href="#">TikTok</a> | 
+      <a href="#">Instagram</a>
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>צור קשר</h2>
+    <p>השאירו פרטים ונחזור אליכן בהקדם 💜</p>
+    <form>
+      <input type="text" placeholder="שם מלא" required style="padding:1rem; width:80%; margin:0.5rem;">
+      <input type="email" placeholder="אימייל" required style="padding:1rem; width:80%; margin:0.5rem;">
+      <textarea placeholder="הודעה" rows="4" required style="padding:1rem; width:80%; margin:0.5rem;"></textarea>
+      <button type="submit" style="padding:1rem 2rem; background:#e91e63; border:none; color:#fff; font-weight:600; border-radius:10px; cursor:pointer;">שליחה</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 MG Nails Boutique | כל הזכויות שמורות</p>
+    <div>
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+    </div>
+  </footer>
+</body>
+</html>
